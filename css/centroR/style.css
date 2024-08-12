@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    min-height: 64.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .contMap{
+    margin: 50px 0;
+    width: 70%;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .container .contMap{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .container .contMap{
+        width: 98%;
+    }
+}

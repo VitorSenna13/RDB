@@ -1,0 +1,86 @@
+.contPrincipal {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 73vh;
+}
+
+.contPrincipal .contTable {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    overflow-x: auto;
+}
+
+.contPrincipal .contTable table th {
+    background-color: rgb(41, 41, 179);
+}
+
+.contPrincipal .contTable table,
+th,
+td {
+    font-size: 20px;
+    border: 1px solid var(--theme-light-text);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    color: var(--theme-light-text);
+    font-family: var(--font-elements);
+}
+
+.dark .contPrincipal .contTable table,
+.dark th,
+.dark td {
+    border: 1px solid var(--theme-dark-text);
+    color: var(--theme-dark-text);
+}
+
+.contPrincipal .contSearch {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+
+.contPrincipal .contSearch .contInput {
+    margin: 5px;
+    color: var(--theme-light-text);
+    font-family: var(--font-elements);
+}
+
+.dark .contPrincipal .contSearch .contInput {
+    color: var(--theme-dark-text);
+}
+
+.contPrincipal .contSearch .contInput .styleInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contPrincipal .contSearch .contInput .styleInput input {
+    width: 95%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.idSearch::-webkit-inner-spin-button,
+.idSearch::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+table tbody td a{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline blue;
+}

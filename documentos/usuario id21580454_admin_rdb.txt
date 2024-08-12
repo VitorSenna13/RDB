@@ -1,0 +1,9 @@
+usuario: id21580454_admin_rdb
+
+nome: id21580454_bd_rdb
+
+
+localhost
+
+
+vitsen6_rdb
